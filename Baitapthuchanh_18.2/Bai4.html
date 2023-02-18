@@ -5,10 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        ol.A {list-style-type: upper-roman;}
+        ol.B {list-style-type: lower-roman;}
+    </style>
 </head>
 <body>
-    <ol>
-        <li>1</li>
+    <ol class="A">
+        <li>Item one</li>
+        <li>Item two</li>
+        <li>Item three</li>
+        <li>Item four</li>
+        <ol class="B">
+            <li>Item 4.1</li>
+            <li>Item 4.2</li>
+            <li>Item 4.3</li>
+        </ol>
+        <li>Item Five</li>
     </ol>
 </body>
 </html>
