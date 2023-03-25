@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: auto;
+        }
+        
+        .tong {
+            width: 900px;
+            height: 813px;
+            border: 1px solid black;
+            margin-top: 20px;
+        }
+        
+        header {
+            width: 100%;
+            height: 80px;
+            background-color: orangered;
+        }
+        
+        h1 {
+            position: relative;
+            color: yellowgreen;
+            top: 20px;
+            left: 60px;
+            text-shadow: -5px -5px 5px white;
+        }
+        
+       
+        
+        .banner {
+            height: 150px;
+            background-image: url(../demogk/image/bannergk4.png);
+            background-size: cover;
+        }
+        
+        .section {
+            width: 70%;
+            height: 500px;
+            float: left;
+            border-right: 1px solid black;
+        }
+        
+        h2 {
+            color: orangered;
+            padding: 40px 40px 20px 10px;
+        }
+        
+        .p1  {
+            padding: 5px 5px 5px 50px;
+        }
+        .p1 input{
+            border-top: hidden;
+            border-left: hidden;
+            border-right: hidden;
+            width: 300px;
+        }
+        
+        .p11 {
+            padding: 5px 5px 5px 50px;
+            color: goldenrod;
+        }
+        
+        button {
+            position: absolute;
+            margin-top: 50px;
+            margin-left: 50px;
+            background-color: orangered;
+            color: white;
+            border: none;
+        }
+        
+        aside {
+            width: 30%;
+            float: right;
+            margin-top: -300px;
+        }
+        
+        .borderlink {
+            border-radius: 20px 20px 0px 0px;
+            border: 1px solid #f3d2d2;
+            margin-right: 20px;
+            margin-top: 35px;
+            background-color: #f3d2d2;
+        }
+        
+        
+        h2 {
+            color: brown;
+        }
+        
+        .h22 {
+            color: yellowgreen;
+        }
+        
+        aside img {
+            float: left;
+            padding: 2px;
+            border: 1px solid grey;
+        }
+        
+        footer {
+            width: 100%;
+            height: 30px;
+            clear: both;
+            float: left;
+            background-image: url(../demogk/image2/footergk4.png);
+            background-size: cover;
+            margin-top: 50px;
+        }
+        .img-leaf{
+            margin-right: 15px;
+        }
+        .menu {
+            border-top: 1px solid black;
+            width: 100%;
+            height: 20px;
+            background-color: white;
+        }
+    
+    a:link {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        background-color: tan;
+        text-decoration: none;
+    }
+    li>ul {
+        display: none;
+    }
+    .c1 li:hover ul {
+        display: block;
+        position: absolute;
+        padding-left: 250px;    
+    }
+    
+    li:hover ul li a:link {
+        display: block;
+        
+        
+    }
+    .c1 li{
+        background: #faebd7;
+        color: blue;
+        list-style-type: none;
+        width: 100px;  
+        text-align: center;
+        display: inline;
+        margin-right: 50px;
+        }
+        li:hover{
+            background-color: greenyellow;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <div class="tong">
+        <header>
+            <h1>AUTUMN TRAVEL COMPANY</h1>
+        </header>
+        <nav class="menu">
+            <ul class="c1">
+                <li> <a href="http://#">Home</a></li>
+                <li> <a href="http://#">About</a></li>
+                <li> <a href="http://#">Product</a></li>
+                <li> <a href="http://#">Services</a>
+                    <ul>
+                        <li> <a href="http://#">Our Service</a></li>
+                        <li> <a href="http://#">Third party service</a></li>
+                    </ul>
+                </li>
+                <li> <a href="http://#">Order</a></li>
+            </ul>
+        </nav>
+        <div class="banner"></div>
+        <section>
+            <h2 class="h22">Sign up for membership benefits</h2>
+            <p class="p11">Our Philosophical values are transparency,respect,formality <br> and responsibility.Our stimulus is your enthusiasm.Our <br> motto is your satisfaction</p>
+            <form action="">
+                <div class="p1">
+                    <input type="text" placeholder="Username">
+                </div>
+                <div class="p1">
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="p1">
+                    <input type="text" placeholder="Password">
+                </div>
+               <div class="p1">
+                <input type="text" placeholder="Retype password">
+               </div>
+                <button type="submit">SIGN ME UP</button>
+            </form>
+        </section>
+        <aside>
+            <div class="borderlink">
+                <h2>Links</h2>
+                <ul>
+                    <li class="#1">Make your Own Tour</li>
+                    <li class="#1">Maldives Tour</li>
+                    <li class="#1">Nature & Adventure</li>
+                    <li class="#1">Readymade Tour</li>
+                    <li class="#1">Europe Tours</li>
+                    <li class="#1">Rusia Tours</li>
+                </ul>
+            </div>
+
+            <h2>More info</h2>
+            <div>
+                <img src="../demogk/image2/leaf.png" alt="legendleaf" class="img leaf">
+
+                <p>Our purpose <br> is the client <br> who give to <br> us &emsp; the <br> opporturnity to serve and to <br> make known the reality <br> around the world</p>
+            
+            </div>
+           
+
+        </aside>
+        <footer></footer>
+    </div>
+</body>
+
+</html>
