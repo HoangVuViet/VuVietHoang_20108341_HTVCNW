@@ -1,0 +1,145 @@
+*{
+    padding: 0px auto;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.page{
+    height: auto;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url(../img/backgroudn.jpg) ;
+    background-repeat: repeat-x;
+}
+#menu{
+    border: 1px solid black;
+    height: 60px;
+    background-color: black;    
+}
+#bglogo{
+    background-color: antiquewhite;
+}
+#logo{
+    padding-top: 5px;
+    height: 60px;
+    width: 130px;
+    padding-right: 20px;
+}
+#menu ul li{
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    line-height: 60px;
+    
+}
+#menu ul li a{
+    display: block;
+}
+#menu ul li a:link{
+    text-decoration: none;
+    color:aliceblue;
+    padding: 0px 5px 0px 5px;
+}
+#menu ul li:hover{
+    color: aqua;
+    line-height: 60px;
+    background-color: rgb(109, 41, 41);
+}
+.menuphai{
+    margin-right: 50px;
+    float: right;
+    color: aliceblue;
+} 
+.menuphai li{
+    display: block;
+}
+.menuphai li a{
+    display: block;
+    padding: 0px 5px 0px 5px;
+}
+.menuphai li a:hover{
+    line-height: 60px;
+}
+.menuphai ul li button{
+    
+}
+.mid{
+    clear: both;
+    display: inline-block;
+    margin-left: 120px;
+}
+.truot{
+    border: 1px solid black;
+    height: 100px;
+    width: 500px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+#ultren{
+    float: left;
+    
+    width: 1300px;
+    height: 400px;
+}
+#ultren li{
+    float: left;
+    list-style: none;
+    margin-left: 25px;
+    background-color: aquamarine;
+    border-radius: 6px;
+    
+}
+#ultren li a{
+    clear: both;
+    text-decoration: none;
+}
+#ultren li a img{
+    height: 200px;
+    width: 200px;
+    padding-top: 20px;
+    
+}
+.ttdth{
+
+    text-decoration: solid underline;
+    font-weight: bold;
+    text-align: center;
+}
+.giagoc{
+    text-align: center;
+    text-decoration: line-through;
+    color:darkgray;
+}
+.giadth{
+    text-align: center;
+    line-height: 30px;
+}
+.ulduoi{  
+    clear: both;
+    margin-top: 50px;
+    width: 1200px;
+    height: 500px;
+    margin-left: 300px ;
+}
+.ulduoi li{
+    float: left;
+    list-style: none;
+    margin-left: 25px;
+    background-color: aquamarine;
+    border-radius: 6px;
+    
+}
+.ulduoi li a{
+    clear: both;  
+    text-decoration: none;
+    
+}
+.ulduoi li a img{
+    padding-top: 20px;
+    height: 200px;
+    width: 200px;
+}
+.footer{
+    background-color: black;
+    clear: both;
+
+}

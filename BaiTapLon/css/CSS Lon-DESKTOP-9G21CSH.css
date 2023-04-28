@@ -1,0 +1,66 @@
+*{
+    padding: 0px auto;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.page{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url(../img/backgroudn.jpg) ;
+    background-repeat: repeat-x;
+}
+.bar{
+    border: 1px solid black;
+}
+
+.logo{
+    background-color: navajowhite;
+    background-size: 80%;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    line-height: 40px;
+}
+.menu ul li a:link{
+    text-decoration: none;
+    color:aliceblue;
+    display: block;
+}
+.menu ul li a:hover{
+    color: aqua;
+}
+.mid{
+    clear: both;
+}
+.ultrai{
+    float: left;
+}
+.ultrai li{
+    float: left;
+    list-style: none;
+
+}
+.ultrai li a img{
+    background-color: aliceblue;
+    height: 100px;
+    width: 100px
+}
+.ulphai{  
+    clear: both;  
+    
+    
+}
+.ulphai li{
+    float: left;
+}
+.ulphai li a img{
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+}
+.footer{
+    
+}

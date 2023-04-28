@@ -1,0 +1,90 @@
+body{
+    background-image: url(../img/backgroudn.jpg);
+  
+}
+#topbar{
+  
+    background-color:blue;
+}
+#logo{
+    padding-left: -100px;
+   
+    text-decoration: none;
+    display: block;
+    width: 120px;
+    margin-left: -15px;
+}
+#logo:hover{
+    color: aqua;
+}
+#searchbox{
+    height: 80%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 6px;
+}
+#danhmuc{
+    margin-top: 5px;
+}
+#baritem{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    
+}
+
+#baritem:hover{
+    color: aqua;
+}
+#dangnhap{
+    margin-top: 5px;
+}
+#bardangnhap{
+    color: white;
+    text-decoration: none;
+    float: right;
+}
+#bardangnhap:hover{
+    color: aqua;
+}
+#mid{
+    padding-top: 50px;
+}
+#mid2{
+    padding-top: 30px;
+}
+#dth a{
+    text-decoration: none;
+}
+#dth a:hover{
+    color: aqua;
+}
+#hinhdth{
+    height: 300px;'
+    width: 300px;
+}
+
+#tendth{
+    font-weight: bold;
+
+}
+#giagoc{
+    color: darkgray;
+    text-decoration: line-through;
+}
+#giacuoi{
+    color: red;
+}
+#footer{
+    background-color: black;
+}
+.info{
+    margin-top: 20px;
+}
+#fitem{
+    text-decoration: none;
+    color: aliceblue;
+}
+#fitem:hover{
+    color: aqua;
+}
